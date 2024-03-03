@@ -114,9 +114,9 @@
     <linkfile dest="build/prebuilts/kernel-build-tools" src="."/>
   </project>
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" clone-depth="1" groups="partner" />
-  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="partner" />
-  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="partner" />
-  <project path="external/stardoc" name="platform/external/stardoc" groups="partner" />
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" gclone-depth="1" roups="partner" />
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" clone-depth="1" groups="partner" />
+  <project path="external/stardoc" name="platform/external/stardoc" clone-depth="1" groups="partner" />
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" groups="partner" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" groups="partner" />
 </manifest>
